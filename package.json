@@ -9,6 +9,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "doctor": "npx expo-doctor",
+    "check": "npm run lint:check && npm run prettier:check",
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",
     "prettier:check": "npx prettier --check .",
