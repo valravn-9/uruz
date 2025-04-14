@@ -2,12 +2,15 @@
   "name": "valnir",
   "version": "1.0.0",
   "main": "expo-router/entry",
+  "type": "module",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write .",
     "web": "expo start --web"
   },
   "dependencies": {
@@ -26,6 +29,7 @@
     "@types/react": "~18.3.12",
     "eslint": "^9.24.0",
     "eslint-plugin-unicorn": "^58.0.0",
+    "prettier": "3.5.3",
     "typescript": "^5.3.3"
   },
   "private": true
