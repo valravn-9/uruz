@@ -1,20 +1,21 @@
 {
   "name": "valnir",
   "version": "1.0.0",
+  "private": true,
   "main": "expo-router/entry",
   "type": "module",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "lint": "eslint .",
+    "doctor": "npx expo-doctor",
+    "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prettier": "prettier --check .",
-    "prettier:fix": "prettier --write .",
-    "web": "expo start --web"
+    "prettier:check": "npx prettier --check .",
+    "prettier:fix": "npx prettier --write ."
   },
   "dependencies": {
-    "expo": "~52.0.43",
+    "expo": "~52.0.46",
     "expo-constants": "~17.0.8",
     "expo-linking": "~7.0.5",
     "expo-router": "~4.0.20",
@@ -35,5 +36,11 @@
     "prettier": "3.5.3",
     "typescript": "^5.3.3"
   },
-  "private": true
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "listUnknownPackages": false
+      }
+    }
+  }
 }
