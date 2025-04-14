@@ -1,5 +1,5 @@
 import { Text, View } from 'react-native';
-import '../global.css';
+import '@/styles/nativewind.css';
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
         justifyContent: 'center',
       }}
     >
-      <Text className="bg-black">valnir</Text>
+      <Text className="bg-slate-400">valnir</Text>
     </View>
   );
 };
