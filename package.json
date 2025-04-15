@@ -11,11 +11,12 @@
     "rebuild": "rm -rf ios android && expo prebuild",
     "xcode": "open ios/valnir.xcworkspace",
     "doctor": "npx expo-doctor",
-    "check": "npm run lint:check && npm run prettier:check",
+    "check": "npm run lint:check && npm run format:check",
+    "fix": "npm run lint:fix && npm run format:fix",
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prettier:check": "npx prettier --check .",
-    "prettier:fix": "npx prettier --write ."
+    "format:check": "npx prettier --check .",
+    "format:fix": "npx prettier --write ."
   },
   "dependencies": {
     "expo": "~52.0.46",
