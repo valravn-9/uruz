@@ -1,6 +1,7 @@
 import { Tabs } from 'expo-router';
 import { BlurView } from 'expo-blur';
 import { StyleSheet } from 'react-native';
+import { FontAwesome } from '@expo/vector-icons';
 
 const TabsLayout = () => {
   return (
@@ -27,9 +28,36 @@ const TabsLayout = () => {
         ),
       }}
     >
-      <Tabs.Screen name="(one)" options={{ headerShown: false }} />
-      <Tabs.Screen name="two" options={{ headerShown: false }} />
-      <Tabs.Screen name="three" options={{ headerShown: false }} />
+      <Tabs.Screen
+        name="(one)"
+        options={{
+          headerShown: false,
+          title: 'One',
+          tabBarIcon: ({ color }) => (
+            <FontAwesome name="code" size={20} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="two"
+        options={{
+          headerShown: false,
+          title: 'Two',
+          tabBarIcon: ({ color }) => (
+            <FontAwesome name="code" size={20} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="three"
+        options={{
+          headerShown: false,
+          title: 'Three',
+          tabBarIcon: ({ color }) => (
+            <FontAwesome name="code" size={20} color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 };
