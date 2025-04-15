@@ -1,18 +1,14 @@
-import '@/styles/nativewind.css';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { StatusBar } from 'expo-status-bar';
 import { Stack } from 'expo-router';
-import { Text, View } from 'react-native';
+import 'react-native-reanimated';
 
-const App = () => {
+export default function RootLayout() {
+  return <RootLayoutNav />;
+}
+
+function RootLayoutNav() {
   return (
-    <SafeAreaProvider>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-      </Stack>
-      <StatusBar style="auto" />
-    </SafeAreaProvider>
+    <Stack>
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+    </Stack>
   );
-};
-
-export default App;
+}
