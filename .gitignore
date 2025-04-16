@@ -35,9 +35,10 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-# vscode
-.vscode/
-
 # build
 ios/
 android/
+
+# customization
+.vscode/
+TODO.md
