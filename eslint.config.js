@@ -7,5 +7,14 @@ export default [
     rules: {
       'unicorn/better-regex': 'warn',
     },
+    overrides: [
+      {
+        files: [
+          '**/__tests__/**/*.[jt]s?(x)',
+          '**/?(*.)+(spec|test).[jt]s?(x)',
+        ],
+        extends: ['plugin:testing-library/react'],
+      },
+    ],
   },
 ];
