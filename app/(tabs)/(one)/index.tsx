@@ -1,9 +1,10 @@
-import { View, Text } from 'react-native';
+import { View, Text } from 'react-native'
 
 const OneScreen = () => {
   return (
     <View className="items-center justify-center flex-1 bg-white dark:bg-black">
-      <Text className="color-black dark:color-white">Onee</Text>
+      <Text 
+      className="color-black dark:color-white">Onee</Text>
     </View>
   );
 };
