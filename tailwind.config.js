@@ -14,7 +14,7 @@ export default {
         text: colors.text,
       },
       fontFamily: {
-        branda: ['Branda', 'sans-serif'],
+        sanFrancisco: ['SanFrancisco', 'sans-serif'],
       },
       fontSize: {
         base: '16px',

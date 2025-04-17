@@ -21,7 +21,7 @@ const TabsLayout = () => {
           paddingTop: 8,
         },
         tabBarLabelStyle: {
-          fontFamily: 'Branda',
+          fontFamily: 'SanFrancisco',
         },
         tabBarActiveTintColor: colors.primary[colorScheme],
         tabBarInactiveTintColor: colors.muted[colorScheme],

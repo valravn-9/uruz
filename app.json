@@ -54,7 +54,10 @@
       [
         "expo-font",
         {
-          "fonts": ["./assets/fonts/Branda.ttf"]
+          "fonts": [
+            "./assets/fonts/Branda.ttf",
+            "./assets/fonts/SanFrancisco.ttf"
+          ]
         }
       ]
     ]

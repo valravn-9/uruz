@@ -10,6 +10,7 @@ SplashScreen.preventAutoHideAsync();
 const RootLayout = () => {
   const [loaded, error] = useFonts({
     Branda: require('assets/fonts/Branda.ttf'),
+    SanFrancisco: require('assets/fonts/SanFrancisco.ttf'),
   });
 
   useEffect(() => {
