@@ -1,7 +1,7 @@
 import { Tabs } from 'expo-router';
 import { BlurView } from 'expo-blur';
 import { StyleSheet } from 'react-native';
-import { FontAwesome } from '@expo/vector-icons';
+import { FontAwesome6 } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
 
 const TabsLayout = () => {
@@ -36,7 +36,7 @@ const TabsLayout = () => {
           headerShown: false,
           title: t('one'),
           tabBarIcon: ({ color }) => (
-            <FontAwesome name="code" size={20} color={color} />
+            <FontAwesome6 name="1" size={20} color={color} />
           ),
         }}
       />
@@ -46,7 +46,7 @@ const TabsLayout = () => {
           headerShown: false,
           title: t('two'),
           tabBarIcon: ({ color }) => (
-            <FontAwesome name="code" size={20} color={color} />
+            <FontAwesome6 name="2" size={20} color={color} />
           ),
         }}
       />
@@ -56,7 +56,7 @@ const TabsLayout = () => {
           headerShown: false,
           title: t('three'),
           tabBarIcon: ({ color }) => (
-            <FontAwesome name="code" size={20} color={color} />
+            <FontAwesome6 name="3" size={20} color={color} />
           ),
         }}
       />
