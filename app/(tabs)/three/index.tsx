@@ -1,11 +1,11 @@
 import { useTranslation } from 'react-i18next';
-import { View, Text } from 'react-native';
+import { View, Text } from 'components';
 
 const ThreeScreen = () => {
   const { t } = useTranslation();
   return (
-    <View className="items-center justify-center flex-1 bg-white dark:bg-black">
-      <Text className="color-black dark:color-white">{t('three')}</Text>
+    <View>
+      <Text>{t('three')}</Text>
     </View>
   );
 };
