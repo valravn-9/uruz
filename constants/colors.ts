@@ -15,4 +15,8 @@ export const colors = {
     light: '#000000',
     dark: '#ffffff',
   },
+  muted: {
+    light: '#9ca3af',
+    dark: '#4b5563',
+  },
 };
