@@ -1,11 +1,14 @@
 import { Tabs } from 'expo-router';
 import { BlurView } from 'expo-blur';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, useColorScheme } from 'react-native';
 import { FontAwesome6 } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
+import { colors } from '@/constants';
 
 const TabsLayout = () => {
   const { t } = useTranslation();
+  const colorScheme = useColorScheme() || 'dark';
+
   return (
     <Tabs
       screenOptions={{
@@ -20,6 +23,8 @@ const TabsLayout = () => {
         tabBarLabelStyle: {
           fontFamily: 'Branda',
         },
+        tabBarActiveTintColor: colors.primary[colorScheme],
+        tabBarInactiveTintColor: colors.muted[colorScheme],
         tabBarBackground: () => (
           <BlurView
             intensity={95}
