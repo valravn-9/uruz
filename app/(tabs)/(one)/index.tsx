@@ -1,5 +1,5 @@
-import { View, Text } from 'components';
 import { useTranslation } from 'react-i18next';
+import { View, Text } from '@/components';
 
 const OneScreen = () => {
   const { t } = useTranslation();
