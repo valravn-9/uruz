@@ -24,6 +24,9 @@ export default {
           dark: '#ffffff',
         },
       },
+      fontFamily: {
+        branda: ['Branda', 'sans-serif'],
+      },
       fontSize: {
         base: '16px',
         lg: '20px',

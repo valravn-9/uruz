@@ -17,6 +17,9 @@ const TabsLayout = () => {
           borderTopWidth: 0,
           paddingTop: 8,
         },
+        tabBarLabelStyle: {
+          fontFamily: 'Branda',
+        },
         tabBarBackground: () => (
           <BlurView
             intensity={95}

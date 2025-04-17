@@ -50,7 +50,13 @@
           }
         }
       ],
-      "expo-localization"
+      "expo-localization",
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/Branda.ttf"]
+        }
+      ]
     ]
   }
 }
