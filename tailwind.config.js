@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import nativewindPreset from 'nativewind/preset';
-import { colors } from './constants';
+import { colors, fontSizes } from './constants';
 
 export default {
   content: ['./app/**/*.{js,jsx,ts,tsx}', './components/**/*.{js,jsx,ts,tsx}'],
@@ -17,9 +17,16 @@ export default {
         sanFrancisco: ['SanFrancisco', 'sans-serif'],
       },
       fontSize: {
-        base: '16px',
-        lg: '20px',
-        xl: '24px',
+        xs: fontSizes.xs,
+        sm: fontSizes.sm,
+        md: fontSizes.md,
+        lg: fontSizes.lg,
+        xl: fontSizes.xl,
+        '2xl': fontSizes['2xl'],
+        '3xl': fontSizes['3xl'],
+        '4xl': fontSizes['4xl'],
+        '5xl': fontSizes['5xl'],
+        '6xl': fontSizes['6xl'],
       },
     },
   },

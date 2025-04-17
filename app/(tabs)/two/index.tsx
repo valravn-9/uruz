@@ -5,7 +5,7 @@ const TwoScreen = () => {
   const { t } = useTranslation();
   return (
     <View>
-      <Text>{t('two')}</Text>
+      <Text className="text-6xl">{t('two')}</Text>
     </View>
   );
 };

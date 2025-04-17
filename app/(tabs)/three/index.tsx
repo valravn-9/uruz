@@ -5,7 +5,7 @@ const ThreeScreen = () => {
   const { t } = useTranslation();
   return (
     <View>
-      <Text>{t('three')}</Text>
+      <Text className="text-6xl">{t('three')}</Text>
     </View>
   );
 };

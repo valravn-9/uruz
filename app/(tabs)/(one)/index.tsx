@@ -6,7 +6,7 @@ const OneScreen = () => {
 
   return (
     <View>
-      <Text>{t('one')}</Text>
+      <Text className="text-6xl">{t('one')}</Text>
     </View>
   );
 };
