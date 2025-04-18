@@ -7,6 +7,7 @@
   "scripts": {
     "start": "expo start",
     "storybook": "WITH_STORYBOOK=true npm start",
+    "storybook:generate": "sb-rn-get-stories",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "rebuild": "rm -rf ios android && expo prebuild",
@@ -19,8 +20,7 @@
     "format:check": "npx prettier --check .",
     "format:fix": "npx prettier --write .",
     "types:check": "tsc --noEmit",
-    "test": "jest --watchAll",
-    "storybook-generate": "sb-rn-get-stories"
+    "test": "jest --watchAll"
   },
   "dependencies": {
     "@rn-primitives/slot": "^1.1.0",
