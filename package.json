@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "expo start",
-    "storybook:start": "WITH_STORYBOOK=true npm start",
-    "storybook:generate": "sb-rn-get-stories",
+    "start:storybook": "WITH_STORYBOOK=true npm start",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "rebuild": "rm -rf ios android && expo prebuild",
