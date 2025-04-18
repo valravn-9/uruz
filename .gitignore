@@ -42,3 +42,6 @@ android/
 # customization
 .vscode/
 TODO.md
+
+# storybook
+.storybook/storybook.requires.ts
