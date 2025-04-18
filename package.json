@@ -21,6 +21,10 @@
     "test": "jest --watchAll"
   },
   "dependencies": {
+    "@rn-primitives/slot": "^1.1.0",
+    "@rn-primitives/types": "^1.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "expo": "~52.0.46",
     "expo-blur": "~14.0.3",
     "expo-constants": "~17.0.8",
@@ -39,8 +43,9 @@
     "react-native-reanimated": "3.16.2",
     "react-native-safe-area-context": "4.12.0",
     "react-native-screens": "~4.4.0",
+    "tailwind-merge": "^3.2.0",
     "tailwindcss": "^3.4.17",
-    "expo-font": "~13.0.4"
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

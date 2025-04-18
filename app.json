@@ -51,15 +51,7 @@
         }
       ],
       "expo-localization",
-      [
-        "expo-font",
-        {
-          "fonts": [
-            "./assets/fonts/Branda.ttf",
-            "./assets/fonts/SanFrancisco.ttf"
-          ]
-        }
-      ]
+      "expo-font"
     ]
   }
 }
