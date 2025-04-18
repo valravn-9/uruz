@@ -5,7 +5,7 @@ export const colors = {
   },
   background: {
     light: '#eeeeee',
-    dark: '#111111',
+    dark: '#000000',
   },
   text: {
     light: '#000000',
