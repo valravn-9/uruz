@@ -6,7 +6,15 @@ const TwoTabLayout = () => {
 
   return (
     <Stack>
-      <Stack.Screen name="index" options={{ headerLargeTitle: true, headerTitle: t('two') }} />
+      <Stack.Screen
+        name="index"
+        options={{
+          headerLargeTitle: true,
+          headerTitleStyle: { fontFamily: 'Norse-Bold' },
+          headerLargeTitleStyle: { fontFamily: 'Norse-Bold' },
+          headerTitle: t('two'),
+        }}
+      />
     </Stack>
   );
 };

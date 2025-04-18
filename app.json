@@ -51,7 +51,12 @@
         }
       ],
       "expo-localization",
-      "expo-font"
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/Norse-Bold.otf", "./assets/fonts/Norse.otf"]
+        }
+      ]
     ]
   }
 }

@@ -18,6 +18,10 @@ const TabsLayout = () => {
           borderTopWidth: 0,
           paddingTop: Platform.OS === 'ios' ? 8 : 0,
         },
+        tabBarLabelStyle: {
+          fontFamily: 'Norse-Bold',
+          fontSize: 12,
+        },
         tabBarBackground: () => (
           <BlurView
             experimentalBlurMethod="dimezisBlurView" // To make this work on Android
