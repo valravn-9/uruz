@@ -1,5 +1,5 @@
 {
-  "name": "valnir",
+  "name": "uruz",
   "version": "1.0.0",
   "private": true,
   "main": "index.ts",
@@ -10,7 +10,7 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "rebuild": "rm -rf ios android && expo prebuild",
-    "xcode": "open ios/valnir.xcworkspace",
+    "xcode": "open ios/uruz.xcworkspace",
     "doctor": "npx expo-doctor",
     "check": "npm run lint:check && npm run format:check && npm run types:check",
     "fix": "npm run lint:fix && npm run format:fix",

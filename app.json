@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "valnir",
-    "slug": "valnir",
+    "name": "uruz",
+    "slug": "uruz",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
-    "scheme": "valnir",
+    "scheme": "uruz",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.dabra.valnir",
+      "bundleIdentifier": "com.dabra.uruz",
       "icon": {
         "dark": "./assets/icons/ios-dark.png",
         "light": "./assets/icons/ios-light.png",
@@ -22,7 +22,7 @@
         "monochromeImage": "./assets/icons/adaptive-icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "com.dabra.valnir"
+      "package": "com.dabra.uruz"
     },
     "plugins": [
       "expo-router",
@@ -43,10 +43,10 @@
         "expo-dev-client",
         {
           "ios": {
-            "bundleIdentifier": "com.dabra.valnir.dev"
+            "bundleIdentifier": "com.dabra.uruz.dev"
           },
           "android": {
-            "package": "com.dabra.valnir.dev"
+            "package": "com.dabra.uruz.dev"
           }
         }
       ],
