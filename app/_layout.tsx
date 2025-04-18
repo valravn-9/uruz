@@ -3,12 +3,7 @@ import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import * as SplashScreen from 'expo-splash-screen';
 import { useLayoutEffect, useRef, useState } from 'react';
-import {
-  Theme,
-  ThemeProvider,
-  DefaultTheme,
-  DarkTheme,
-} from '@react-navigation/native';
+import { Theme, ThemeProvider, DefaultTheme, DarkTheme } from '@react-navigation/native';
 import { NAV_THEME } from '@/lib/constants';
 import { useColorScheme } from '@/lib/useColorScheme';
 

@@ -32,9 +32,7 @@ const TabsLayout = () => {
         options={{
           headerShown: false,
           title: t('one'),
-          tabBarIcon: ({ color }) => (
-            <FontAwesome6 name="1" size={20} color={color} />
-          ),
+          tabBarIcon: ({ color }) => <FontAwesome6 name="1" size={20} color={color} />,
         }}
       />
       <Tabs.Screen
@@ -42,9 +40,7 @@ const TabsLayout = () => {
         options={{
           headerShown: false,
           title: t('two'),
-          tabBarIcon: ({ color }) => (
-            <FontAwesome6 name="2" size={20} color={color} />
-          ),
+          tabBarIcon: ({ color }) => <FontAwesome6 name="2" size={20} color={color} />,
         }}
       />
       <Tabs.Screen
@@ -52,9 +48,7 @@ const TabsLayout = () => {
         options={{
           headerShown: false,
           title: t('three'),
-          tabBarIcon: ({ color }) => (
-            <FontAwesome6 name="3" size={20} color={color} />
-          ),
+          tabBarIcon: ({ color }) => <FontAwesome6 name="3" size={20} color={color} />,
         }}
       />
     </Tabs>

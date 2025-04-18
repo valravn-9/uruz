@@ -6,10 +6,7 @@ const ThreeTabLayout = () => {
 
   return (
     <Stack>
-      <Stack.Screen
-        name="index"
-        options={{ headerLargeTitle: true, headerTitle: t('three') }}
-      />
+      <Stack.Screen name="index" options={{ headerLargeTitle: true, headerTitle: t('three') }} />
     </Stack>
   );
 };

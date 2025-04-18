@@ -6,10 +6,7 @@ const OneTabLayout = () => {
 
   return (
     <Stack>
-      <Stack.Screen
-        name="index"
-        options={{ headerLargeTitle: true, headerTitle: t('one') }}
-      />
+      <Stack.Screen name="index" options={{ headerLargeTitle: true, headerTitle: t('one') }} />
     </Stack>
   );
 };
