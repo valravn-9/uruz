@@ -1,3 +1,2 @@
-// native
-export { View } from './native/View';
-export { Text } from './native/Text';
+// react-native-reusables
+export { Text } from './ui/text';
