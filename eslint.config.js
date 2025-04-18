@@ -6,6 +6,7 @@ import eslintPluginReactHooks from 'eslint-plugin-react-hooks';
 export default [
   {
     files: ['**/*.ts', '**/*.tsx'],
+    ignores: ['.storybook/storybook.requires.ts'],
     languageOptions: {
       parser,
       parserOptions: {
