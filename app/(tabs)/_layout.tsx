@@ -21,7 +21,7 @@ const TabsLayout = () => {
         tabBarBackground: () => (
           <BlurView
             experimentalBlurMethod="dimezisBlurView" // To make this work on Android
-            intensity={50}
+            intensity={90}
             className="absolute inset-0 overflow-hidden rounded-tl-2xl rounded-tr-2xl"
           />
         ),
