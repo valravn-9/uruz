@@ -1,6 +1,6 @@
 import { Tabs } from 'expo-router';
 import { BlurView } from 'expo-blur';
-import { StyleSheet } from 'react-native';
+import { Platform } from 'react-native';
 import { FontAwesome6 } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
 
@@ -16,20 +16,13 @@ const TabsLayout = () => {
           borderTopLeftRadius: 20,
           borderTopRightRadius: 20,
           borderTopWidth: 0,
-          paddingTop: 8,
-        },
-        tabBarLabelStyle: {
-          fontFamily: 'SanFrancisco',
+          paddingTop: Platform.OS === 'ios' ? 8 : 0,
         },
         tabBarBackground: () => (
           <BlurView
+            experimentalBlurMethod="dimezisBlurView" // To make this work on Android
             intensity={50}
-            style={{
-              ...StyleSheet.absoluteFillObject,
-              overflow: 'hidden',
-              borderTopLeftRadius: 20,
-              borderTopRightRadius: 20,
-            }}
+            className="absolute inset-0 overflow-hidden rounded-tl-2xl rounded-tr-2xl"
           />
         ),
       }}
