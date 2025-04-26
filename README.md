@@ -24,7 +24,7 @@ Dependencies:
 
 ### assets
 
-The `assets` directory contains static assets such as images, fonts, and other resources used in the application.
+The `assets` directory contains static assets such as images, fonts, and other resources used in the application. For the app icons I used https://onlinepngtools.com/convert-text-to-png to generate the app icon (1024x1024, 250 padding, arial, font bold, align center and middle for the icons. For the app icons in the expo icon template used 1300x1300 for the icons and splash screen and 800x800 for the adaptive icon).
 
 Dependencies:
 
