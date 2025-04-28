@@ -1,7 +1,7 @@
 const { getDefaultConfig } = require('expo/metro-config');
 const path = require('path');
 const { withNativeWind } = require('nativewind/metro');
-const withStorybook = require('@storybook/react-native/metro/withStorybook');
+// const withStorybook = require('@storybook/react-native/metro/withStorybook');
 
 const config = getDefaultConfig(__dirname);
 
@@ -13,9 +13,11 @@ config.resolver.blockList = [
   !isStorybookEnabled && /.*\.stories\.(ts|tsx|js|jsx)$/, // Exclude Storybook files
 ].filter(Boolean); // Remove `false` entries
 
-module.exports = isStorybookEnabled
-  ? withStorybook(withNativeWind(config, { input: './nativewind.css' }), {
-      enabled: true,
-      configPath: path.resolve(__dirname, './.storybook'),
-    })
-  : withNativeWind(config, { input: './nativewind.css' });
+// module.exports = isStorybookEnabled
+//   ? withStorybook(withNativeWind(config, { input: './nativewind.css' }), {
+//       enabled: true,
+//       configPath: path.resolve(__dirname, './.storybook'),
+//     })
+//   : withNativeWind(config, { input: './nativewind.css' });
+
+module.exports = withNativeWind(config, { input: './nativewind.css' });
