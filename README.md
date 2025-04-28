@@ -4,16 +4,6 @@ This project is a general, opinionated setup that can be used as a boilerplate f
 
 ## Project Structure
 
-### .storybook
-
-The `.storybook` directory contains the configuration files for Storybook, a tool for developing UI components in isolation. It allows developers to visualize and test components without running the entire application.
-
-Dependencies:
-
-- `@storybook/react-native`: The React Native version of Storybook, which provides a UI for browsing components and their states.
-- `@storybook/addon-ondevice-actions`: An addon for Storybook that allows you to log actions in the UI.
-- `@storybook/addon-ondevice-controls`: An addon for Storybook that allows you to control component props in the UI.
-
 ### app
 
 The `app` directory contains the main application code. It is structured to follow best practices for React Native development using file-based routing. The directory is organized into subdirectories for screens, navigation, and other application logic.
@@ -73,7 +63,7 @@ Dependencies:
 - `eslint.config.js`: ESLint configuration file for linting JavaScript and JSX code including `eslint-plugin-unicorn`, `eslint-plugin-react`, and `eslint-plugin-react-hooks`.
 - `index.ts`: Entry point for the application, typically used for bootstrapping the app.
 - `jest.config.js`: Jest configuration file for running tests. References the `tests/setupTests.ts` file for setting up the testing environment.
-- `metro.config.cjs`: Metro bundler configuration file for React Native including setup for storybook and nativewind.
+- `metro.config.cjs`: Metro bundler configuration file for React Native including setup for nativewind.
 - `nativewind-env.d.ts`: Type definitions for NativeWind, a utility-first CSS framework for React Native.
 - `nativewind.css`: CSS file for NativeWind styles. Often referred to as a global stylesheet.
 - `prettier.config.js`: Prettier configuration file for code formatting.
