@@ -15,7 +15,7 @@ importers:
         specifier: ^14.1.0
         version: 14.1.0(expo-font@13.0.4(expo@52.0.46(@babel/core@7.27.1)(@babel/preset-env@7.27.2(@babel/core@7.27.1))(@expo/metro-runtime@4.0.1(react-native@0.76.9(@babel/core@7.27.1)(@babel/preset-env@7.27.2(@babel/core@7.27.1))(@types/react@18.3.21)(react@18.3.1)))(react-native@0.76.9(@babel/core@7.27.1)(@babel/preset-env@7.27.2(@babel/core@7.27.1))(@types/react@18.3.21)(react@18.3.1))(react@18.3.1))(react@18.3.1))(react-native@0.76.9(@babel/core@7.27.1)(@babel/preset-env@7.27.2(@babel/core@7.27.1))(@types/react@18.3.21)(react@18.3.1))(react@18.3.1)
       '@react-navigation/native':
-        specifier: ^7.1.9
+        specifier: ^7.0.14
         version: 7.1.9(react-native@0.76.9(@babel/core@7.27.1)(@babel/preset-env@7.27.2(@babel/core@7.27.1))(@types/react@18.3.21)(react@18.3.1))(react@18.3.1)
       '@rn-primitives/slot':
         specifier: ^1.1.0
